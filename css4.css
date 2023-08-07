@@ -1,0 +1,100 @@
+/* Set the base font size and font family */
+a,p{
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Manrope', sans-serif;
+}
+body {
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+nav li {
+    margin-right: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+main h1 {
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-bottom: 10px;
+}
+
+/* Business Inquires Form */
+section {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    background-color: #333;
+    color: #f2f2f2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

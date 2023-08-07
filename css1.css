@@ -1,0 +1,94 @@
+/* Set the base font size and font family */
+a,p{
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Manrope', Arial, sans-serif;
+   }
+  body {
+    font-family: 'Manrope', Arial, sans-serif;
+    line-height: 1.6;
+  }
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+  }
+  /* Navigation styles */
+  nav {
+    color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    color: #f9f9f9;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #f9f9f9;
+    padding: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  main div {
+    margin-bottom: 20px;
+  }
+  
+  main p {
+    color: #666;
+  }
+  
+  /* Section styles */
+  section {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-family: 'Comic Neue', cursive;
+    margin-bottom: 10px;
+  }
+  
+  /* Grid styles */
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .grid-item img {
+    width: 100%;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  

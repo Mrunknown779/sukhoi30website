@@ -1,0 +1,73 @@
+/* Set the base font size and font family */
+a,p{
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Manrope', Arial, sans-serif;
+  }
+  body {
+    font-family: 'Manrope', Arial, sans-serif;
+    line-height: 1.6;
+  }
+/* Header and Navigation styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    }
+      
+nav ul {
+     list-style-type: none;
+     padding: 0;
+     text-align: center;
+    }
+      
+nav li {
+    display: inline;
+    margin-right: 15px;
+    }
+      
+nav a {
+    text-decoration: none;
+    color: #fff;
+    }
+
+      
+/* Change the color of the link when hovered */
+nav a:hover {
+    color: #ddd;
+    }
+.image{
+    text-align: center;
+}
+body > section > div > img{
+    max-width: 50%;
+    max-height: 50%;
+}
+.nnt{
+    text-align: center;
+    font-size: 2.3em;
+}
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.footerx{
+    text-align: center;
+    background-color: #333;
+    color: #f2f2f2;
+}
